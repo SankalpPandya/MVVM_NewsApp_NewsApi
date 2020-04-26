@@ -8,6 +8,7 @@ Highlights of this project------------------------------------------------------
 5. Picasso
 6. AndroidX
 7. Card view
+8. Web view 
 
 Application Architecture and features-----------------------------------------------------------------------------------------------------
 
@@ -17,18 +18,20 @@ For achieveing this RxJava2 along with Retrofit are used.
 
 Application basically fetches latest news from NewsAPI and provides options to view Trending news or view news by country.
 
-Application opens detail page on click of any news and provides web link to read more.
+Application opens detail page on click of any news and provides web link to read more (Web view).
 
-Screenshots: --------------------------------------------------------------------------------------------------------------
+# Screenshots: ----------------------------------------------
 
-1. HomeScreen
+# 1. HomeScreen
 
-<img src="app/images/HomeScreen.png" width ="200">
+<img src="app/Images/HomeScreen.PNG">
 
-1. Coutrywise headlines 
 
-<img src="app/images/CountryHeadlines.png" width ="200">
+# 2. Coutrywise headlines 
 
-1. NewsDetail View
+<img src="app/Images/CountryHeadlines.PNG">
 
-<img src="app/images/DetailView.png" width ="200">
+
+# 3. NewsDetail View
+
+<img src="app/Images/DetailView.PNG">
