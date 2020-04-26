@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".view.MainActivity"
+    android:layout_marginTop="?attr/actionBarSize"
+    >
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/headerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_title_trending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#008577"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:text="@string/title_top_news"
+                android:textColor="@color/colorWhite" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_view_trending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title_trending"
+                android:layout_margin="@dimen/recycleview_top_margin"
+                android:orientation="horizontal"
+                android:scrollbars="none">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/tv_title_country_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycle_view_trending"
+                android:layout_marginTop="@dimen/recycleview_top_margin"
+                android:background="#008577"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:text="@string/title_country"
+                android:textColor="@color/colorWhite" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_view_countries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title_country_selection"
+                android:layout_margin="@dimen/recycleview_top_margin"
+                android:scrollbars="none">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

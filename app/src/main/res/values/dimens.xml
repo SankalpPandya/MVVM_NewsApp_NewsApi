@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_title_trending_top_padding">10dp</dimen>
+    <dimen name="card_view_padding_end">20dp</dimen>
+    <dimen name="card_view_top_news_width">500dp</dimen>
+    <dimen name="card_view_top_news_height">400dp</dimen>
+    <dimen name="top_news_image_width">300dp</dimen>
+    <dimen name="recycleview_top_margin">25dp</dimen>
+    <dimen name="item_offset">25dp</dimen>
+</resources>

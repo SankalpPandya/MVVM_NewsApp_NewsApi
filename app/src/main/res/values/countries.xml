@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries_array">
+        <item>in</item>
+        <item>ch</item>
+        <item>at</item>
+        <item>au</item>
+        <item>be</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>de</item>
+        <item>se</item>
+        <item>za</item>
+    </string-array>
+    <string-array name="countries_array_name">
+        <item>India</item>
+        <item>Switzerland</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Germany</item>
+        <item>Sweden</item>
+        <item>South Africa</item>
+    </string-array>
+</resources>
