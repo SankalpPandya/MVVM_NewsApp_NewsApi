@@ -1,14 +1,15 @@
-# MVVM_NewsApp
+# MVVM_NewsApp_NesAPi
 Highlights of this project----------------------------------------------------------------------------
 
-MVVM
-Retofit
-Gson
-RxJava
-Picasso
-AndroidX
-Card view
-Application Architecture and features-----------------------------------------------------------------------------------------------------------
+1. MVVM
+2. Retofit
+3. Gson
+4. RxJava
+5. Picasso
+6. AndroidX
+7. Card view
+
+Application Architecture and features-----------------------------------------------------------------------------------------------------
 
 This application architecture follows the MVVM architecture , which provides reactive , lifecycle aware and smooth implementation flow.
 
