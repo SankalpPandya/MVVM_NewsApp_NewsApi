@@ -15,10 +15,20 @@ This application architecture follows the MVVM architecture , which provides rea
 
 For achieveing this RxJava2 along with Retrofit are used.
 
-For backward compatibility androidx has been used.
-
-Application provides flexibility to provide dynamic urls for web requsts as retrofit API has URL has parameters.
-
 Application basically fetches latest news from NewsAPI and provides options to view Trending news or view news by country.
 
 Application opens detail page on click of any news and provides web link to read more.
+
+Screenshots: --------------------------------------------------------------------------------------------------------------
+
+1. HomeScreen
+
+<img src="app/images/HomeScreen.png" width ="200">
+
+1. Coutrywise headlines 
+
+<img src="app/images/CountryHeadlines.png" width ="200">
+
+1. NewsDetail View
+
+<img src="app/images/DetailView.png" width ="200">
